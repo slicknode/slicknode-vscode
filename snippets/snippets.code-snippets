@@ -1,0 +1,30 @@
+{
+  "slicknodeContentNode": {
+    "prefix": "scn",
+    "body": [
+      "\"\"\"",
+      "A ${2:TypeName}",
+      "\"\"\"",
+      "type ${1:Namespace}_${2:TypeName} implements Node & Content {",
+      "  id: ID!",
+      "  ",
+      "  ${3:# Add your custom fields here}",
+      "  ",
+
+      "  contentNode: ContentNode!",
+      "  locale: Locale!",
+      "  status: ContentStatus!",
+      "  publishedAt: DateTime",
+      "  publishedBy: User",
+      "  createdAt: DateTime!",
+      "  createdBy: User",
+      "  lastUpdatedAt: DateTime",
+      "  lastUpdatedBy: User",
+      "}",
+      "",
+      ""
+    ],
+    "description": "GraphQL type with Content + Node interfaces",
+    "scope": "graphql"
+  }
+}
