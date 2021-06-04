@@ -3,7 +3,7 @@
   "displayName": "Slicknode",
   "publisher": "Slicknode",
   "description": "Snippets for Slicknode GraphQL schema definitions",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "icon": "images/logo.png",
   "engines": {
     "vscode": "^1.56.0"
