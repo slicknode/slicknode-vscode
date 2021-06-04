@@ -2,12 +2,14 @@
 
 This extensions contains code snippets for building [Slicknode](https://slicknode.com) GraphQL backends.
 
+To learn more about Slicknode, checkout [the website](https://slicknode.com) and [the Slicknode documentation](https://slicknode.com/docs/)
+
 ## Features
 
-Quickly create GraphQL schema definitions for Slicknode backends with common
+Quickly create GraphQL schema definitions for [Slicknode backends](https://slicknode.com) with common
 snippets:
 
-![Demo](./images/demo.gif)
+![Demo](demo.gif)
 
 ## Snippets
 
