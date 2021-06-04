@@ -3,7 +3,7 @@
   "displayName": "Slicknode",
   "publisher": "Slicknode",
   "description": "Slicknode VSCode Plugin",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "icon": "logo.png",
   "engines": {
     "vscode": "^1.56.0"
