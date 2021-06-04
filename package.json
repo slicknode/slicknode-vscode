@@ -4,6 +4,7 @@
   "publisher": "Slicknode",
   "description": "Slicknode VSCode Plugin",
   "version": "0.0.1",
+  "icon": "images/logo.png",
   "engines": {
     "vscode": "^1.56.0"
   },

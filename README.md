@@ -7,7 +7,7 @@ This extensions contains code snippets for building [Slicknode](https://slicknod
 Quickly create GraphQL schema definitions for Slicknode backends with common
 snippets:
 
-![Demo](images/demo.gif)
+![Demo](./images/demo.gif)
 
 ## Snippets
 
