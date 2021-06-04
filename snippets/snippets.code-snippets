@@ -63,5 +63,25 @@
     ],
     "description": "GraphQL type with TimeStampedInterface + Node interfaces",
     "scope": "graphql"
+  },
+  "Mutation": {
+    "prefix": "smu",
+    "body": [
+      "input ${TM_DIRECTORY/.*[\\\\\\/](.*)$/${1:/pascalcase}/}_${1/(.*)/${1:/capitalize}/}Input {",
+      "  ${0:# Add your input fields here}",
+      "}",
+      "",
+      "type ${TM_DIRECTORY/.*[\\\\\\/](.*)$/${1:/pascalcase}/}_${1/(.*)/${1:/capitalize}/}Payload {",
+      "  # Add your output fields here",
+      "}",
+      "",
+      "extend type Mutation {",
+      "  ${TM_DIRECTORY/.*[\\\\\\/](.*)$/${1:/pascalcase}/}_${1/(.)(.*)/${1:/downcase}$2/}(input: ${TM_DIRECTORY/.*[\\\\\\/](.*)$/${1:/pascalcase}/}_${1/(.*)/${1:/capitalize}/}Input!): ${TM_DIRECTORY/.*[\\\\\\/](.*)$/${1:/pascalcase}/}_${1/(.*)/${1:/capitalize}/}Payload",
+      "}",
+      "",
+      ""
+    ],
+    "description": "GraphQL mutation",
+    "scope": "graphql"
   }
 }

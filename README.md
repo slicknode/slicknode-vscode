@@ -18,6 +18,7 @@ Below is a list of the available snippets and the triggers that add the snippet 
 |  `scn→` | type with Content and Node interfaces              |
 |   `sn→` | type with Node interfaces                          |
 |  `stn→` | type with Node and TimeStampedInterface interfaces |
+|  `smu→` | mutation with payload and input types              |
 
 ## Release Notes
 
