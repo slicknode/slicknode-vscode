@@ -9,7 +9,7 @@ To learn more about Slicknode, checkout [the website](https://slicknode.com) and
 Quickly create GraphQL schema definitions for [Slicknode backends](https://slicknode.com) with common
 snippets:
 
-![Demo](demo.gif)
+![Demo](images/demo.gif)
 
 ## Snippets
 
