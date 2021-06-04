@@ -1,14 +1,14 @@
 {
-  "slicknodeContentNode": {
+  "Content Node": {
     "prefix": "scn",
     "body": [
       "\"\"\"",
       "A ${2:TypeName}",
       "\"\"\"",
-      "type ${1:Namespace}_${2:TypeName} implements Node & Content {",
+      "type ${TM_DIRECTORY/.*[\\\\\\/](.*)$/${1:/pascalcase}/}_${2:TypeName/pascalcase} implements Node & Content {",
       "  id: ID!",
       "  ",
-      "  ${3:# Add your custom fields here}",
+      "  ${0:# Add your custom fields here}",
       "  ",
 
       "  contentNode: ContentNode!",
@@ -25,6 +25,43 @@
       ""
     ],
     "description": "GraphQL type with Content + Node interfaces",
+    "scope": "graphql"
+  },
+  "TimeStamped Node": {
+    "prefix": "stn",
+    "body": [
+      "\"\"\"",
+      "A ${2:TypeName}",
+      "\"\"\"",
+      "type ${TM_DIRECTORY/.*[\\\\\\/](.*)$/${1:/pascalcase}/}_${2:TypeName/pascalcase} implements Node & TimeStampedInterface {",
+      "  id: ID!",
+      "  ",
+      "  ${0:# Add your custom fields here}",
+      "  ",
+      "  createdAt: DateTime!",
+      "  lastUpdatedAt: DateTime",
+      "}",
+      "",
+      ""
+    ],
+    "description": "GraphQL type with TimeStampedInterface + Node interfaces",
+    "scope": "graphql"
+  },
+  "Node": {
+    "prefix": "sn",
+    "body": [
+      "\"\"\"",
+      "A ${2:TypeName}",
+      "\"\"\"",
+      "type ${TM_DIRECTORY/.*[\\\\\\/](.*)$/${1:/pascalcase}/}_${2:TypeName/pascalcase} implements Node {",
+      "  id: ID!",
+      "  ",
+      "  ${0:# Add your custom fields here}",
+      "}",
+      "",
+      ""
+    ],
+    "description": "GraphQL type with TimeStampedInterface + Node interfaces",
     "scope": "graphql"
   }
 }
