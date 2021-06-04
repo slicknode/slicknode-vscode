@@ -1,6 +1,7 @@
 {
   "name": "slicknode-vscode",
   "displayName": "Slicknode",
+  "publisher": "Slicknode",
   "description": "Slicknode VSCode Plugin",
   "version": "0.0.1",
   "engines": {
@@ -9,6 +10,10 @@
   "categories": [
     "Snippets"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/slicknode/slicknode-vscode.git"
+  },
   "contributes": {
     "snippets": [
       {
