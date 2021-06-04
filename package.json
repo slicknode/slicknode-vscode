@@ -2,7 +2,7 @@
   "name": "slicknode-vscode",
   "displayName": "Slicknode",
   "publisher": "Slicknode",
-  "description": "Slicknode VSCode Plugin",
+  "description": "Snippets for Slicknode GraphQL schema definitions",
   "version": "0.0.4",
   "icon": "images/logo.png",
   "engines": {
